@@ -13,6 +13,16 @@
 		3DC3AE161A27F1E000F44D10 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DC3AE151A27F1E000F44D10 /* Images.xcassets */; };
 		3DC3AE191A27F1E100F44D10 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DC3AE171A27F1E100F44D10 /* Main.storyboard */; };
 		3DC3AE251A27F1E100F44D10 /* BiometryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC3AE241A27F1E100F44D10 /* BiometryTests.swift */; };
+		3DC3AE2F1A27F3D000F44D10 /* Variable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC3AE2E1A27F3D000F44D10 /* Variable.swift */; };
+		3DC3AE311A27F52500F44D10 /* Measurement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC3AE301A27F52500F44D10 /* Measurement.swift */; };
+		3DC3AE331A27F9B600F44D10 /* Continuous.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC3AE321A27F9B600F44D10 /* Continuous.swift */; };
+		3DC3AE351A27FA5500F44D10 /* Discontinuous.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC3AE341A27FA5500F44D10 /* Discontinuous.swift */; };
+		3DC3AE371A27FAC100F44D10 /* Ranked.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC3AE361A27FAC100F44D10 /* Ranked.swift */; };
+		3DC3AE391A27FB2600F44D10 /* Attribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC3AE381A27FB2600F44D10 /* Attribute.swift */; };
+		3DC3AE3D1A27FDFF00F44D10 /* Box2_1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC3AE3C1A27FDFF00F44D10 /* Box2_1.swift */; };
+		3DC3AE3F1A28007300F44D10 /* Table2_2.swift in Resources */ = {isa = PBXBuildFile; fileRef = 3DC3AE3E1A28007300F44D10 /* Table2_2.swift */; };
+		3DC3AE411A28022F00F44D10 /* Table2_3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC3AE401A28022F00F44D10 /* Table2_3.swift */; };
+		3DC3AE431A28035200F44D10 /* Exercise2_4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC3AE421A28035200F44D10 /* Exercise2_4.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +46,16 @@
 		3DC3AE1E1A27F1E100F44D10 /* BiometryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BiometryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DC3AE231A27F1E100F44D10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3DC3AE241A27F1E100F44D10 /* BiometryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BiometryTests.swift; sourceTree = "<group>"; };
+		3DC3AE2E1A27F3D000F44D10 /* Variable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Variable.swift; path = src/data/Variable.swift; sourceTree = SOURCE_ROOT; };
+		3DC3AE301A27F52500F44D10 /* Measurement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Measurement.swift; path = src/data/Measurement.swift; sourceTree = SOURCE_ROOT; };
+		3DC3AE321A27F9B600F44D10 /* Continuous.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Continuous.swift; path = src/data/Continuous.swift; sourceTree = SOURCE_ROOT; };
+		3DC3AE341A27FA5500F44D10 /* Discontinuous.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Discontinuous.swift; path = src/data/Discontinuous.swift; sourceTree = SOURCE_ROOT; };
+		3DC3AE361A27FAC100F44D10 /* Ranked.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Ranked.swift; path = src/data/Ranked.swift; sourceTree = SOURCE_ROOT; };
+		3DC3AE381A27FB2600F44D10 /* Attribute.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Attribute.swift; path = src/data/Attribute.swift; sourceTree = SOURCE_ROOT; };
+		3DC3AE3C1A27FDFF00F44D10 /* Box2_1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Box2_1.swift; path = tests/unit/Chapt2/Box2_1.swift; sourceTree = SOURCE_ROOT; };
+		3DC3AE3E1A28007300F44D10 /* Table2_2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Table2_2.swift; path = tests/unit/Chapt2/Table2_2.swift; sourceTree = SOURCE_ROOT; };
+		3DC3AE401A28022F00F44D10 /* Table2_3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Table2_3.swift; path = tests/unit/Chapt2/Table2_3.swift; sourceTree = SOURCE_ROOT; };
+		3DC3AE421A28035200F44D10 /* Exercise2_4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Exercise2_4.swift; path = tests/unit/Chapt2/Exercise2_4.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +103,7 @@
 				3DC3AE171A27F1E100F44D10 /* Main.storyboard */,
 				3DC3AE121A27F1E000F44D10 /* Biometry.xcdatamodeld */,
 				3DC3AE0C1A27F1E000F44D10 /* Supporting Files */,
+				3DC3AE3A1A27FD1700F44D10 /* src */,
 			);
 			path = Biometry;
 			sourceTree = "<group>";
@@ -100,6 +121,10 @@
 			children = (
 				3DC3AE241A27F1E100F44D10 /* BiometryTests.swift */,
 				3DC3AE221A27F1E100F44D10 /* Supporting Files */,
+				3DC3AE3C1A27FDFF00F44D10 /* Box2_1.swift */,
+				3DC3AE3E1A28007300F44D10 /* Table2_2.swift */,
+				3DC3AE421A28035200F44D10 /* Exercise2_4.swift */,
+				3DC3AE401A28022F00F44D10 /* Table2_3.swift */,
 			);
 			path = BiometryTests;
 			sourceTree = "<group>";
@@ -110,6 +135,27 @@
 				3DC3AE231A27F1E100F44D10 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3DC3AE3A1A27FD1700F44D10 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				3DC3AE3B1A27FD2000F44D10 /* data */,
+			);
+			name = src;
+			sourceTree = "<group>";
+		};
+		3DC3AE3B1A27FD2000F44D10 /* data */ = {
+			isa = PBXGroup;
+			children = (
+				3DC3AE2E1A27F3D000F44D10 /* Variable.swift */,
+				3DC3AE321A27F9B600F44D10 /* Continuous.swift */,
+				3DC3AE301A27F52500F44D10 /* Measurement.swift */,
+				3DC3AE341A27FA5500F44D10 /* Discontinuous.swift */,
+				3DC3AE361A27FAC100F44D10 /* Ranked.swift */,
+				3DC3AE381A27FB2600F44D10 /* Attribute.swift */,
+			);
+			name = data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -201,6 +247,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3DC3AE3F1A28007300F44D10 /* Table2_2.swift in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,8 +259,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				3DC3AE111A27F1E000F44D10 /* ViewController.swift in Sources */,
+				3DC3AE351A27FA5500F44D10 /* Discontinuous.swift in Sources */,
 				3DC3AE141A27F1E000F44D10 /* Biometry.xcdatamodeld in Sources */,
+				3DC3AE391A27FB2600F44D10 /* Attribute.swift in Sources */,
+				3DC3AE331A27F9B600F44D10 /* Continuous.swift in Sources */,
+				3DC3AE371A27FAC100F44D10 /* Ranked.swift in Sources */,
+				3DC3AE311A27F52500F44D10 /* Measurement.swift in Sources */,
 				3DC3AE0F1A27F1E000F44D10 /* AppDelegate.swift in Sources */,
+				3DC3AE2F1A27F3D000F44D10 /* Variable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,6 +274,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3DC3AE3D1A27FDFF00F44D10 /* Box2_1.swift in Sources */,
+				3DC3AE431A28035200F44D10 /* Exercise2_4.swift in Sources */,
+				3DC3AE411A28022F00F44D10 /* Table2_3.swift in Sources */,
 				3DC3AE251A27F1E100F44D10 /* BiometryTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -401,6 +457,7 @@
 				3DC3AE2A1A27F1E100F44D10 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3DC3AE2B1A27F1E100F44D10 /* Build configuration list for PBXNativeTarget "BiometryTests" */ = {
 			isa = XCConfigurationList;
@@ -409,6 +466,7 @@
 				3DC3AE2D1A27F1E100F44D10 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
