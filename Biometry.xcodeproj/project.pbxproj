@@ -12,17 +12,77 @@
 		3DC3AE141A27F1E000F44D10 /* Biometry.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3DC3AE121A27F1E000F44D10 /* Biometry.xcdatamodeld */; };
 		3DC3AE161A27F1E000F44D10 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DC3AE151A27F1E000F44D10 /* Images.xcassets */; };
 		3DC3AE191A27F1E100F44D10 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DC3AE171A27F1E100F44D10 /* Main.storyboard */; };
-		3DC3AE251A27F1E100F44D10 /* BiometryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC3AE241A27F1E100F44D10 /* BiometryTests.swift */; };
 		3DC3AE2F1A27F3D000F44D10 /* Variable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC3AE2E1A27F3D000F44D10 /* Variable.swift */; };
 		3DC3AE311A27F52500F44D10 /* Measurement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC3AE301A27F52500F44D10 /* Measurement.swift */; };
 		3DC3AE331A27F9B600F44D10 /* Continuous.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC3AE321A27F9B600F44D10 /* Continuous.swift */; };
 		3DC3AE351A27FA5500F44D10 /* Discontinuous.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC3AE341A27FA5500F44D10 /* Discontinuous.swift */; };
 		3DC3AE371A27FAC100F44D10 /* Ranked.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC3AE361A27FAC100F44D10 /* Ranked.swift */; };
 		3DC3AE391A27FB2600F44D10 /* Attribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC3AE381A27FB2600F44D10 /* Attribute.swift */; };
-		3DC3AE3D1A27FDFF00F44D10 /* Box2_1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC3AE3C1A27FDFF00F44D10 /* Box2_1.swift */; };
-		3DC3AE3F1A28007300F44D10 /* Table2_2.swift in Resources */ = {isa = PBXBuildFile; fileRef = 3DC3AE3E1A28007300F44D10 /* Table2_2.swift */; };
-		3DC3AE411A28022F00F44D10 /* Table2_3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC3AE401A28022F00F44D10 /* Table2_3.swift */; };
-		3DC3AE431A28035200F44D10 /* Exercise2_4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC3AE421A28035200F44D10 /* Exercise2_4.swift */; };
+		D0028B9B1A510489000B94B2 /* TukeyHSD.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0028B9A1A510489000B94B2 /* TukeyHSD.swift */; };
+		D0028B9E1A5105A5000B94B2 /* FischerLSD.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0028B9D1A5105A5000B94B2 /* FischerLSD.swift */; };
+		D0028BA01A51062E000B94B2 /* DuncansMRT.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0028B9F1A51062E000B94B2 /* DuncansMRT.swift */; };
+		D0028BA21A51074F000B94B2 /* StudentNewmanKeuls.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0028BA11A51074F000B94B2 /* StudentNewmanKeuls.swift */; };
+		D0028BA41A5107AD000B94B2 /* WallerDuncan.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0028BA31A5107AD000B94B2 /* WallerDuncan.swift */; };
+		D0028BA61A5107F1000B94B2 /* Dunnetts.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0028BA51A5107F1000B94B2 /* Dunnetts.swift */; };
+		D0028BA81A51D162000B94B2 /* LatticeSquare.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0028BA71A51D162000B94B2 /* LatticeSquare.swift */; };
+		D0028BAB1A525598000B94B2 /* numerical_functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0028BAA1A525598000B94B2 /* numerical_functions.swift */; };
+		D0328A271A438DE800CC22A0 /* DesignPars.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0328A261A438DE800CC22A0 /* DesignPars.swift */; };
+		D0328A2C1A438F0400CC22A0 /* IAnalysis.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0328A2B1A438F0400CC22A0 /* IAnalysis.swift */; };
+		D0328A2E1A438FE100CC22A0 /* IArrangement.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0328A2D1A438FE100CC22A0 /* IArrangement.swift */; };
+		D0328A301A438FFE00CC22A0 /* IBlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0328A2F1A438FFE00CC22A0 /* IBlock.swift */; };
+		D0328A321A43903200CC22A0 /* IExperiment.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0328A311A43903200CC22A0 /* IExperiment.swift */; };
+		D0328A341A43904800CC22A0 /* IExperimentalData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0328A331A43904800CC22A0 /* IExperimentalData.swift */; };
+		D0328A361A4390FB00CC22A0 /* IExperimentalDesign.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0328A351A4390FB00CC22A0 /* IExperimentalDesign.swift */; };
+		D0328A381A43911D00CC22A0 /* IMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0328A371A43911D00CC22A0 /* IMap.swift */; };
+		D0328A3A1A43913100CC22A0 /* IPlan.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0328A391A43913100CC22A0 /* IPlan.swift */; };
+		D0328A3C1A43916200CC22A0 /* IStatEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0328A3B1A43916200CC22A0 /* IStatEngine.swift */; };
+		D0328A3E1A43A0AB00CC22A0 /* ColMajSquare.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0328A3D1A43A0AB00CC22A0 /* ColMajSquare.swift */; };
+		D0328A411A43A0CC00CC22A0 /* DiagSquare.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0328A401A43A0CC00CC22A0 /* DiagSquare.swift */; };
+		D0328A431A43A0DF00CC22A0 /* LatinSquare.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0328A421A43A0DF00CC22A0 /* LatinSquare.swift */; };
+		D0328A451A43A0F300CC22A0 /* RowMajSquare.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0328A441A43A0F300CC22A0 /* RowMajSquare.swift */; };
+		D0328A4A1A43A3F700CC22A0 /* AugmentedCRD.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0328A491A43A3F700CC22A0 /* AugmentedCRD.swift */; };
+		D0328A4C1A43A40D00CC22A0 /* AugmentedDesign.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0328A4B1A43A40D00CC22A0 /* AugmentedDesign.swift */; };
+		D0328A4E1A43A42000CC22A0 /* AugmentedLattice.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0328A4D1A43A42000CC22A0 /* AugmentedLattice.swift */; };
+		D0328A501A43A43100CC22A0 /* AugmentedRCBD.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0328A4F1A43A43100CC22A0 /* AugmentedRCBD.swift */; };
+		D0328A531A43A53A00CC22A0 /* BasicCrossingBlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0328A521A43A53A00CC22A0 /* BasicCrossingBlock.swift */; };
+		D0328A551A43A55C00CC22A0 /* DiallelCrossBlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0328A541A43A55C00CC22A0 /* DiallelCrossBlock.swift */; };
+		D0328A571A43A56E00CC22A0 /* LineTesterBlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0328A561A43A56E00CC22A0 /* LineTesterBlock.swift */; };
+		D0328A591A43A58300CC22A0 /* PolycrossBlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0328A581A43A58300CC22A0 /* PolycrossBlock.swift */; };
+		D0328A5B1A43A59B00CC22A0 /* TestCrossDesign.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0328A5A1A43A59B00CC22A0 /* TestCrossDesign.swift */; };
+		D0328A5D1A43A63100CC22A0 /* DescriptiveInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0328A5C1A43A63100CC22A0 /* DescriptiveInfo.swift */; };
+		D0328A621A43A76E00CC22A0 /* AlphaLattice.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0328A611A43A76E00CC22A0 /* AlphaLattice.swift */; };
+		D0328A6B1A43A7D700CC22A0 /* CochrandAndCoxPlans.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0328A6A1A43A7D700CC22A0 /* CochrandAndCoxPlans.swift */; };
+		D0328A701A43A80600CC22A0 /* iLattice.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0328A6F1A43A80600CC22A0 /* iLattice.swift */; };
+		D0328A721A44C0C600CC22A0 /* GLM.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0328A711A44C0C600CC22A0 /* GLM.swift */; };
+		D0328A791A44C1BC00CC22A0 /* CombinedAnalysisLM.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0328A781A44C1BC00CC22A0 /* CombinedAnalysisLM.swift */; };
+		D0328A7B1A44C1D000CC22A0 /* CombinedAnalysisRC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0328A7A1A44C1D000CC22A0 /* CombinedAnalysisRC.swift */; };
+		D0328A7F1A44C1F800CC22A0 /* IntrablockAnalysisLM.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0328A7E1A44C1F800CC22A0 /* IntrablockAnalysisLM.swift */; };
+		D0328A811A44C20A00CC22A0 /* IntrablockAnalysisRC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0328A801A44C20A00CC22A0 /* IntrablockAnalysisRC.swift */; };
+		D0328A841A44C23800CC22A0 /* AOVsequentialLM.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0328A831A44C23800CC22A0 /* AOVsequentialLM.swift */; };
+		D0328A861A44C24D00CC22A0 /* LinearModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0328A851A44C24D00CC22A0 /* LinearModel.swift */; };
+		D0328A881A44C26800CC22A0 /* LMLapack.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0328A871A44C26800CC22A0 /* LMLapack.swift */; };
+		D0328A8A1A44C28E00CC22A0 /* LMModel0.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0328A891A44C28E00CC22A0 /* LMModel0.swift */; };
+		D0328A8C1A44C54200CC22A0 /* RectangularLattice.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0328A8B1A44C54200CC22A0 /* RectangularLattice.swift */; };
+		D0328A8E1A44C55200CC22A0 /* SimpleLattice.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0328A8D1A44C55200CC22A0 /* SimpleLattice.swift */; };
+		D0328A901A44C56300CC22A0 /* SquareLattice.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0328A8F1A44C56300CC22A0 /* SquareLattice.swift */; };
+		D0328A921A44C57400CC22A0 /* TripleLattice.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0328A911A44C57400CC22A0 /* TripleLattice.swift */; };
+		D05927BC1A55DEA800566481 /* LapackEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05927BB1A55DEA800566481 /* LapackEngine.swift */; };
+		D05927BE1A56074F00566481 /* AOVLatticeLM.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05927BD1A56074F00566481 /* AOVLatticeLM.swift */; };
+		D05927C11A561BD800566481 /* AOVsequentialCRD.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05927C01A561BD800566481 /* AOVsequentialCRD.swift */; };
+		D05927C31A561BF300566481 /* AOVsequentialRCB.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05927C21A561BF300566481 /* AOVsequentialRCB.swift */; };
+		D05927C51A561ED600566481 /* AOVrowcolumnLM.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05927C41A561ED600566481 /* AOVrowcolumnLM.swift */; };
+		D05927C91A5701FC00566481 /* McCulloch4_7.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05927C81A5701FC00566481 /* McCulloch4_7.swift */; };
+		D05927CB1A5705AE00566481 /* McCulloch2_2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05927CA1A5705AE00566481 /* McCulloch2_2.swift */; };
+		D05927CD1A57065700566481 /* McCulloch2_3.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05927CC1A57065700566481 /* McCulloch2_3.swift */; };
+		D05927CF1A57071300566481 /* McCulloch5_1.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05927CE1A57071300566481 /* McCulloch5_1.swift */; };
+		D05927D11A57076600566481 /* McCulloch7_6.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05927D01A57076600566481 /* McCulloch7_6.swift */; };
+		D05927D31A5707A000566481 /* McCulloch8_2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05927D21A5707A000566481 /* McCulloch8_2.swift */; };
+		D059EFE21A587D4E009EC9EA /* John7_3.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CD6D4B1A584EDC002B37EC /* John7_3.swift */; };
+		D059EFE31A587D5A009EC9EA /* TestData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CD6D4E1A58501B002B37EC /* TestData.swift */; };
+		D0D344C31A44D38B00816278 /* LMFactorInteractions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D344C21A44D38B00816278 /* LMFactorInteractions.swift */; };
+		D0FB56EB1A4BA4F00069AAF4 /* LinearAlgebra.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0FB56EA1A4BA4F00069AAF4 /* LinearAlgebra.swift */; };
+		D0FB56EF1A4F15A00069AAF4 /* BalancedLattice.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0FB56EE1A4F15A00069AAF4 /* BalancedLattice.swift */; };
+		D0FB56F11A50D5620069AAF4 /* StatsFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0FB56F01A50D5620069AAF4 /* StatsFunctions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +116,76 @@
 		3DC3AE3E1A28007300F44D10 /* Table2_2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Table2_2.swift; path = tests/unit/Chapt2/Table2_2.swift; sourceTree = SOURCE_ROOT; };
 		3DC3AE401A28022F00F44D10 /* Table2_3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Table2_3.swift; path = tests/unit/Chapt2/Table2_3.swift; sourceTree = SOURCE_ROOT; };
 		3DC3AE421A28035200F44D10 /* Exercise2_4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Exercise2_4.swift; path = tests/unit/Chapt2/Exercise2_4.swift; sourceTree = SOURCE_ROOT; };
+		D0028B9A1A510489000B94B2 /* TukeyHSD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TukeyHSD.swift; path = ../../statistics/swift/multiple_comparisons/TukeyHSD.swift; sourceTree = "<group>"; };
+		D0028B9D1A5105A5000B94B2 /* FischerLSD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FischerLSD.swift; path = ../../statistics/swift/multiple_comparisons/FischerLSD.swift; sourceTree = "<group>"; };
+		D0028B9F1A51062E000B94B2 /* DuncansMRT.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DuncansMRT.swift; path = ../../statistics/swift/multiple_comparisons/DuncansMRT.swift; sourceTree = "<group>"; };
+		D0028BA11A51074F000B94B2 /* StudentNewmanKeuls.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StudentNewmanKeuls.swift; path = ../../statistics/swift/multiple_comparisons/StudentNewmanKeuls.swift; sourceTree = "<group>"; };
+		D0028BA31A5107AD000B94B2 /* WallerDuncan.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WallerDuncan.swift; path = ../../statistics/swift/multiple_comparisons/WallerDuncan.swift; sourceTree = "<group>"; };
+		D0028BA51A5107F1000B94B2 /* Dunnetts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Dunnetts.swift; path = ../../statistics/swift/multiple_comparisons/Dunnetts.swift; sourceTree = "<group>"; };
+		D0028BA71A51D162000B94B2 /* LatticeSquare.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LatticeSquare.swift; path = ../../statistics/swift/experimental_design/LatticeSquare.swift; sourceTree = "<group>"; };
+		D0028BA91A521A7B000B94B2 /* common.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = common.playground; path = ../../statistics/swift/common/common.playground; sourceTree = "<group>"; };
+		D0028BAA1A525598000B94B2 /* numerical_functions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = numerical_functions.swift; path = ../../statistics/swift/numerical_methods/numerical_functions.swift; sourceTree = "<group>"; };
+		D0145D4D1A587DC200A6EA21 /* john.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = john.playground; path = ../../statistics/swift/tests/john/john.playground; sourceTree = "<group>"; };
+		D0328A261A438DE800CC22A0 /* DesignPars.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DesignPars.swift; path = ../../statistics/swift/common/DesignPars.swift; sourceTree = "<group>"; };
+		D0328A2B1A438F0400CC22A0 /* IAnalysis.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = IAnalysis.swift; path = ../../statistics/swift/common/IAnalysis.swift; sourceTree = "<group>"; };
+		D0328A2D1A438FE100CC22A0 /* IArrangement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = IArrangement.swift; path = ../../statistics/swift/common/IArrangement.swift; sourceTree = "<group>"; };
+		D0328A2F1A438FFE00CC22A0 /* IBlock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = IBlock.swift; path = ../../statistics/swift/common/IBlock.swift; sourceTree = "<group>"; };
+		D0328A311A43903200CC22A0 /* IExperiment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = IExperiment.swift; path = ../../statistics/swift/common/IExperiment.swift; sourceTree = "<group>"; };
+		D0328A331A43904800CC22A0 /* IExperimentalData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = IExperimentalData.swift; path = ../../statistics/swift/common/IExperimentalData.swift; sourceTree = "<group>"; };
+		D0328A351A4390FB00CC22A0 /* IExperimentalDesign.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = IExperimentalDesign.swift; path = ../../statistics/swift/common/IExperimentalDesign.swift; sourceTree = "<group>"; };
+		D0328A371A43911D00CC22A0 /* IMap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = IMap.swift; path = ../../statistics/swift/common/IMap.swift; sourceTree = "<group>"; };
+		D0328A391A43913100CC22A0 /* IPlan.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = IPlan.swift; path = ../../statistics/swift/common/IPlan.swift; sourceTree = "<group>"; };
+		D0328A3B1A43916200CC22A0 /* IStatEngine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = IStatEngine.swift; path = ../../statistics/swift/common/IStatEngine.swift; sourceTree = "<group>"; };
+		D0328A3D1A43A0AB00CC22A0 /* ColMajSquare.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ColMajSquare.swift; path = ../../statistics/swift/arrangements/ColMajSquare.swift; sourceTree = "<group>"; };
+		D0328A401A43A0CC00CC22A0 /* DiagSquare.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DiagSquare.swift; path = ../../statistics/swift/arrangements/DiagSquare.swift; sourceTree = "<group>"; };
+		D0328A421A43A0DF00CC22A0 /* LatinSquare.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LatinSquare.swift; path = ../../statistics/swift/arrangements/LatinSquare.swift; sourceTree = "<group>"; };
+		D0328A441A43A0F300CC22A0 /* RowMajSquare.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RowMajSquare.swift; path = ../../statistics/swift/arrangements/RowMajSquare.swift; sourceTree = "<group>"; };
+		D0328A491A43A3F700CC22A0 /* AugmentedCRD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AugmentedCRD.swift; path = ../../statistics/swift/augmented/AugmentedCRD.swift; sourceTree = "<group>"; };
+		D0328A4B1A43A40D00CC22A0 /* AugmentedDesign.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AugmentedDesign.swift; path = ../../statistics/swift/augmented/AugmentedDesign.swift; sourceTree = "<group>"; };
+		D0328A4D1A43A42000CC22A0 /* AugmentedLattice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AugmentedLattice.swift; path = ../../statistics/swift/augmented/AugmentedLattice.swift; sourceTree = "<group>"; };
+		D0328A4F1A43A43100CC22A0 /* AugmentedRCBD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AugmentedRCBD.swift; path = ../../statistics/swift/augmented/AugmentedRCBD.swift; sourceTree = "<group>"; };
+		D0328A521A43A53A00CC22A0 /* BasicCrossingBlock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BasicCrossingBlock.swift; path = /Users/peter/Work/CropDev/trunk/../../statistics/swift/crossing_blocks/BasicCrossingBlock.swift; sourceTree = "<absolute>"; };
+		D0328A541A43A55C00CC22A0 /* DiallelCrossBlock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DiallelCrossBlock.swift; path = ../../statistics/swift/crossing_blocks/DiallelCrossBlock.swift; sourceTree = "<group>"; };
+		D0328A561A43A56E00CC22A0 /* LineTesterBlock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LineTesterBlock.swift; path = ../../statistics/swift/crossing_blocks/LineTesterBlock.swift; sourceTree = "<group>"; };
+		D0328A581A43A58300CC22A0 /* PolycrossBlock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PolycrossBlock.swift; path = ../../statistics/swift/crossing_blocks/PolycrossBlock.swift; sourceTree = "<group>"; };
+		D0328A5A1A43A59B00CC22A0 /* TestCrossDesign.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TestCrossDesign.swift; path = ../../statistics/swift/crossing_blocks/TestCrossDesign.swift; sourceTree = "<group>"; };
+		D0328A5C1A43A63100CC22A0 /* DescriptiveInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DescriptiveInfo.swift; path = ../../statistics/swift/descriptive/DescriptiveInfo.swift; sourceTree = "<group>"; };
+		D0328A611A43A76E00CC22A0 /* AlphaLattice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; name = AlphaLattice.swift; path = ../../statistics/swift/experimental_design/AlphaLattice.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		D0328A6A1A43A7D700CC22A0 /* CochrandAndCoxPlans.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CochrandAndCoxPlans.swift; path = ../../statistics/swift/experimental_design/CochrandAndCoxPlans.swift; sourceTree = "<group>"; };
+		D0328A6F1A43A80600CC22A0 /* iLattice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = iLattice.swift; path = ../../statistics/swift/experimental_design/iLattice.swift; sourceTree = "<group>"; };
+		D0328A711A44C0C600CC22A0 /* GLM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GLM.swift; path = ../../statistics/swift/glm/GLM.swift; sourceTree = "<group>"; };
+		D0328A781A44C1BC00CC22A0 /* CombinedAnalysisLM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CombinedAnalysisLM.swift; path = ../../statistics/swift/lattice/CombinedAnalysisLM.swift; sourceTree = "<group>"; };
+		D0328A7A1A44C1D000CC22A0 /* CombinedAnalysisRC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CombinedAnalysisRC.swift; path = ../../statistics/swift/lattice/CombinedAnalysisRC.swift; sourceTree = "<group>"; };
+		D0328A7E1A44C1F800CC22A0 /* IntrablockAnalysisLM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = IntrablockAnalysisLM.swift; path = ../../statistics/swift/lattice/IntrablockAnalysisLM.swift; sourceTree = "<group>"; };
+		D0328A801A44C20A00CC22A0 /* IntrablockAnalysisRC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = IntrablockAnalysisRC.swift; path = ../../statistics/swift/lattice/IntrablockAnalysisRC.swift; sourceTree = "<group>"; };
+		D0328A831A44C23800CC22A0 /* AOVsequentialLM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AOVsequentialLM.swift; path = ../../statistics/swift/lm/AOVsequentialLM.swift; sourceTree = "<group>"; };
+		D0328A851A44C24D00CC22A0 /* LinearModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LinearModel.swift; path = ../../statistics/swift/lm/LinearModel.swift; sourceTree = "<group>"; };
+		D0328A871A44C26800CC22A0 /* LMLapack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LMLapack.swift; path = ../../statistics/swift/lm/LMLapack.swift; sourceTree = "<group>"; };
+		D0328A891A44C28E00CC22A0 /* LMModel0.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LMModel0.swift; path = ../../statistics/swift/lm/LMModel0.swift; sourceTree = "<group>"; };
+		D0328A8B1A44C54200CC22A0 /* RectangularLattice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RectangularLattice.swift; path = ../../statistics/swift/experimental_design/RectangularLattice.swift; sourceTree = "<group>"; };
+		D0328A8D1A44C55200CC22A0 /* SimpleLattice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SimpleLattice.swift; path = ../../statistics/swift/experimental_design/SimpleLattice.swift; sourceTree = "<group>"; };
+		D0328A8F1A44C56300CC22A0 /* SquareLattice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SquareLattice.swift; path = ../../statistics/swift/experimental_design/SquareLattice.swift; sourceTree = "<group>"; };
+		D0328A911A44C57400CC22A0 /* TripleLattice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TripleLattice.swift; path = ../../statistics/swift/experimental_design/TripleLattice.swift; sourceTree = "<group>"; };
+		D033EE241A2AD0BE00D51547 /* Chapter2.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = Chapter2.playground; path = tests/unit/Chapt2/Chapter2.playground; sourceTree = "<group>"; };
+		D05927BB1A55DEA800566481 /* LapackEngine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LapackEngine.swift; path = ../../statistics/swift/numerical_methods/LapackEngine.swift; sourceTree = "<group>"; };
+		D05927BD1A56074F00566481 /* AOVLatticeLM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AOVLatticeLM.swift; path = ../../statistics/swift/lattice/AOVLatticeLM.swift; sourceTree = "<group>"; };
+		D05927C01A561BD800566481 /* AOVsequentialCRD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AOVsequentialCRD.swift; path = ../../statistics/swift/base_designs/AOVsequentialCRD.swift; sourceTree = "<group>"; };
+		D05927C21A561BF300566481 /* AOVsequentialRCB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AOVsequentialRCB.swift; path = ../../statistics/swift/base_designs/AOVsequentialRCB.swift; sourceTree = "<group>"; };
+		D05927C41A561ED600566481 /* AOVrowcolumnLM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AOVrowcolumnLM.swift; path = ../../statistics/swift/lattice/AOVrowcolumnLM.swift; sourceTree = "<group>"; };
+		D05927C81A5701FC00566481 /* McCulloch4_7.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = McCulloch4_7.swift; path = /Users/peter/Work/statistics/swift/tests/mcculloch/McCulloch4_7.swift; sourceTree = "<absolute>"; };
+		D05927CA1A5705AE00566481 /* McCulloch2_2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = McCulloch2_2.swift; path = ../../statistics/swift/tests/mcculloch/McCulloch2_2.swift; sourceTree = "<group>"; };
+		D05927CC1A57065700566481 /* McCulloch2_3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = McCulloch2_3.swift; path = ../../statistics/swift/tests/mcculloch/McCulloch2_3.swift; sourceTree = "<group>"; };
+		D05927CE1A57071300566481 /* McCulloch5_1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = McCulloch5_1.swift; path = ../../statistics/swift/tests/mcculloch/McCulloch5_1.swift; sourceTree = "<group>"; };
+		D05927D01A57076600566481 /* McCulloch7_6.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = McCulloch7_6.swift; path = ../../statistics/swift/tests/mcculloch/McCulloch7_6.swift; sourceTree = "<group>"; };
+		D05927D21A5707A000566481 /* McCulloch8_2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = McCulloch8_2.swift; path = ../../statistics/swift/tests/mcculloch/McCulloch8_2.swift; sourceTree = "<group>"; };
+		D0CD6D4B1A584EDC002B37EC /* John7_3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = John7_3.swift; path = ../../statistics/swift/tests/john/John7_3.swift; sourceTree = "<group>"; };
+		D0CD6D4E1A58501B002B37EC /* TestData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TestData.swift; path = ../../statistics/swift/tests/support/TestData.swift; sourceTree = "<group>"; };
+		D0D344C21A44D38B00816278 /* LMFactorInteractions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LMFactorInteractions.swift; path = ../../statistics/swift/lm/LMFactorInteractions.swift; sourceTree = "<group>"; };
+		D0FB56EA1A4BA4F00069AAF4 /* LinearAlgebra.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LinearAlgebra.swift; path = ../../statistics/swift/numerical_methods/LinearAlgebra.swift; sourceTree = "<group>"; };
+		D0FB56EC1A4BC8FF0069AAF4 /* AlphaLattice.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = AlphaLattice.playground; path = ../../statistics/swift/experimental_design/AlphaLattice.playground; sourceTree = "<group>"; };
+		D0FB56ED1A4BC9C20069AAF4 /* LinearAlgebra.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = LinearAlgebra.playground; path = ../../statistics/swift/numerical_methods/LinearAlgebra.playground; sourceTree = "<group>"; };
+		D0FB56EE1A4F15A00069AAF4 /* BalancedLattice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BalancedLattice.swift; path = ../../statistics/swift/experimental_design/BalancedLattice.swift; sourceTree = "<group>"; };
+		D0FB56F01A50D5620069AAF4 /* StatsFunctions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StatsFunctions.swift; path = ../../statistics/swift/descriptive/StatsFunctions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,12 +249,10 @@
 		3DC3AE211A27F1E100F44D10 /* BiometryTests */ = {
 			isa = PBXGroup;
 			children = (
+				D05927C61A5701E600566481 /* tests */,
+				D033EE231A2AD08000D51547 /* Chapter 2 */,
 				3DC3AE241A27F1E100F44D10 /* BiometryTests.swift */,
 				3DC3AE221A27F1E100F44D10 /* Supporting Files */,
-				3DC3AE3C1A27FDFF00F44D10 /* Box2_1.swift */,
-				3DC3AE3E1A28007300F44D10 /* Table2_2.swift */,
-				3DC3AE421A28035200F44D10 /* Exercise2_4.swift */,
-				3DC3AE401A28022F00F44D10 /* Table2_3.swift */,
 			);
 			path = BiometryTests;
 			sourceTree = "<group>";
@@ -140,6 +268,7 @@
 		3DC3AE3A1A27FD1700F44D10 /* src */ = {
 			isa = PBXGroup;
 			children = (
+				D0328A281A438E0500CC22A0 /* stats */,
 				3DC3AE3B1A27FD2000F44D10 /* data */,
 			);
 			name = src;
@@ -156,6 +285,222 @@
 				3DC3AE381A27FB2600F44D10 /* Attribute.swift */,
 			);
 			name = data;
+			sourceTree = "<group>";
+		};
+		D0028B9C1A510493000B94B2 /* multiple_comparisons */ = {
+			isa = PBXGroup;
+			children = (
+				D0028B9A1A510489000B94B2 /* TukeyHSD.swift */,
+				D0028B9D1A5105A5000B94B2 /* FischerLSD.swift */,
+				D0028B9F1A51062E000B94B2 /* DuncansMRT.swift */,
+				D0028BA11A51074F000B94B2 /* StudentNewmanKeuls.swift */,
+				D0028BA31A5107AD000B94B2 /* WallerDuncan.swift */,
+				D0028BA51A5107F1000B94B2 /* Dunnetts.swift */,
+			);
+			name = multiple_comparisons;
+			sourceTree = "<group>";
+		};
+		D0328A281A438E0500CC22A0 /* stats */ = {
+			isa = PBXGroup;
+			children = (
+				D0328A3F1A43A0B300CC22A0 /* arrangements */,
+				D0328A481A43A3DB00CC22A0 /* augmented */,
+				D05927BF1A561B9C00566481 /* base_designs */,
+				D0328A291A438E0E00CC22A0 /* common */,
+				D0328A511A43A52200CC22A0 /* crossing_blocks */,
+				D0328A5E1A43A63600CC22A0 /* descriptive */,
+				D0328A631A43A77400CC22A0 /* experimental_design */,
+				D0328A6E1A43A7F000CC22A0 /* glm */,
+				D0328A731A44C0D600CC22A0 /* lattice */,
+				D0328A821A44C21B00CC22A0 /* lm */,
+				D0028B9C1A510493000B94B2 /* multiple_comparisons */,
+				D0FB56E91A4BA4BB0069AAF4 /* numerical_methods */,
+			);
+			name = stats;
+			sourceTree = "<group>";
+		};
+		D0328A291A438E0E00CC22A0 /* common */ = {
+			isa = PBXGroup;
+			children = (
+				D0328A261A438DE800CC22A0 /* DesignPars.swift */,
+				D0328A2B1A438F0400CC22A0 /* IAnalysis.swift */,
+				D0328A2D1A438FE100CC22A0 /* IArrangement.swift */,
+				D0328A2F1A438FFE00CC22A0 /* IBlock.swift */,
+				D0328A311A43903200CC22A0 /* IExperiment.swift */,
+				D0328A331A43904800CC22A0 /* IExperimentalData.swift */,
+				D0328A351A4390FB00CC22A0 /* IExperimentalDesign.swift */,
+				D0328A371A43911D00CC22A0 /* IMap.swift */,
+				D0328A391A43913100CC22A0 /* IPlan.swift */,
+				D0328A3B1A43916200CC22A0 /* IStatEngine.swift */,
+				D0028BA91A521A7B000B94B2 /* common.playground */,
+			);
+			name = common;
+			sourceTree = "<group>";
+		};
+		D0328A3F1A43A0B300CC22A0 /* arrangements */ = {
+			isa = PBXGroup;
+			children = (
+				D0328A3D1A43A0AB00CC22A0 /* ColMajSquare.swift */,
+				D0328A401A43A0CC00CC22A0 /* DiagSquare.swift */,
+				D0328A421A43A0DF00CC22A0 /* LatinSquare.swift */,
+				D0328A441A43A0F300CC22A0 /* RowMajSquare.swift */,
+			);
+			name = arrangements;
+			sourceTree = "<group>";
+		};
+		D0328A481A43A3DB00CC22A0 /* augmented */ = {
+			isa = PBXGroup;
+			children = (
+				D0328A491A43A3F700CC22A0 /* AugmentedCRD.swift */,
+				D0328A4B1A43A40D00CC22A0 /* AugmentedDesign.swift */,
+				D0328A4D1A43A42000CC22A0 /* AugmentedLattice.swift */,
+				D0328A4F1A43A43100CC22A0 /* AugmentedRCBD.swift */,
+			);
+			name = augmented;
+			sourceTree = "<group>";
+		};
+		D0328A511A43A52200CC22A0 /* crossing_blocks */ = {
+			isa = PBXGroup;
+			children = (
+				D0328A521A43A53A00CC22A0 /* BasicCrossingBlock.swift */,
+				D0328A541A43A55C00CC22A0 /* DiallelCrossBlock.swift */,
+				D0328A561A43A56E00CC22A0 /* LineTesterBlock.swift */,
+				D0328A581A43A58300CC22A0 /* PolycrossBlock.swift */,
+				D0328A5A1A43A59B00CC22A0 /* TestCrossDesign.swift */,
+			);
+			name = crossing_blocks;
+			sourceTree = "<group>";
+		};
+		D0328A5E1A43A63600CC22A0 /* descriptive */ = {
+			isa = PBXGroup;
+			children = (
+				D0328A5C1A43A63100CC22A0 /* DescriptiveInfo.swift */,
+				D0FB56F01A50D5620069AAF4 /* StatsFunctions.swift */,
+			);
+			name = descriptive;
+			sourceTree = "<group>";
+		};
+		D0328A631A43A77400CC22A0 /* experimental_design */ = {
+			isa = PBXGroup;
+			children = (
+				D0328A611A43A76E00CC22A0 /* AlphaLattice.swift */,
+				D0328A6A1A43A7D700CC22A0 /* CochrandAndCoxPlans.swift */,
+				D0328A6F1A43A80600CC22A0 /* iLattice.swift */,
+				D0328A8B1A44C54200CC22A0 /* RectangularLattice.swift */,
+				D0328A8D1A44C55200CC22A0 /* SimpleLattice.swift */,
+				D0328A8F1A44C56300CC22A0 /* SquareLattice.swift */,
+				D0328A911A44C57400CC22A0 /* TripleLattice.swift */,
+				D0FB56EC1A4BC8FF0069AAF4 /* AlphaLattice.playground */,
+				D0FB56EE1A4F15A00069AAF4 /* BalancedLattice.swift */,
+				D0028BA71A51D162000B94B2 /* LatticeSquare.swift */,
+			);
+			name = experimental_design;
+			sourceTree = "<group>";
+		};
+		D0328A6E1A43A7F000CC22A0 /* glm */ = {
+			isa = PBXGroup;
+			children = (
+				D0328A711A44C0C600CC22A0 /* GLM.swift */,
+			);
+			name = glm;
+			sourceTree = "<group>";
+		};
+		D0328A731A44C0D600CC22A0 /* lattice */ = {
+			isa = PBXGroup;
+			children = (
+				D0328A781A44C1BC00CC22A0 /* CombinedAnalysisLM.swift */,
+				D0328A7A1A44C1D000CC22A0 /* CombinedAnalysisRC.swift */,
+				D0328A7E1A44C1F800CC22A0 /* IntrablockAnalysisLM.swift */,
+				D0328A801A44C20A00CC22A0 /* IntrablockAnalysisRC.swift */,
+				D05927BD1A56074F00566481 /* AOVLatticeLM.swift */,
+				D05927C41A561ED600566481 /* AOVrowcolumnLM.swift */,
+			);
+			name = lattice;
+			sourceTree = "<group>";
+		};
+		D0328A821A44C21B00CC22A0 /* lm */ = {
+			isa = PBXGroup;
+			children = (
+				D0328A831A44C23800CC22A0 /* AOVsequentialLM.swift */,
+				D0328A851A44C24D00CC22A0 /* LinearModel.swift */,
+				D0328A871A44C26800CC22A0 /* LMLapack.swift */,
+				D0328A891A44C28E00CC22A0 /* LMModel0.swift */,
+				D0D344C21A44D38B00816278 /* LMFactorInteractions.swift */,
+			);
+			name = lm;
+			sourceTree = "<group>";
+		};
+		D033EE231A2AD08000D51547 /* Chapter 2 */ = {
+			isa = PBXGroup;
+			children = (
+				3DC3AE3C1A27FDFF00F44D10 /* Box2_1.swift */,
+				3DC3AE3E1A28007300F44D10 /* Table2_2.swift */,
+				3DC3AE421A28035200F44D10 /* Exercise2_4.swift */,
+				3DC3AE401A28022F00F44D10 /* Table2_3.swift */,
+				D033EE241A2AD0BE00D51547 /* Chapter2.playground */,
+			);
+			name = "Chapter 2";
+			path = ..;
+			sourceTree = "<group>";
+		};
+		D05927BF1A561B9C00566481 /* base_designs */ = {
+			isa = PBXGroup;
+			children = (
+				D05927C01A561BD800566481 /* AOVsequentialCRD.swift */,
+				D05927C21A561BF300566481 /* AOVsequentialRCB.swift */,
+			);
+			name = base_designs;
+			sourceTree = "<group>";
+		};
+		D05927C61A5701E600566481 /* tests */ = {
+			isa = PBXGroup;
+			children = (
+				D0CD6D501A585020002B37EC /* support */,
+				D05927C71A5701ED00566481 /* mcculloch */,
+				D0CD6D4D1A584EEE002B37EC /* john */,
+			);
+			name = tests;
+			sourceTree = "<group>";
+		};
+		D05927C71A5701ED00566481 /* mcculloch */ = {
+			isa = PBXGroup;
+			children = (
+				D05927C81A5701FC00566481 /* McCulloch4_7.swift */,
+				D05927CA1A5705AE00566481 /* McCulloch2_2.swift */,
+				D05927CC1A57065700566481 /* McCulloch2_3.swift */,
+				D05927CE1A57071300566481 /* McCulloch5_1.swift */,
+				D05927D01A57076600566481 /* McCulloch7_6.swift */,
+				D05927D21A5707A000566481 /* McCulloch8_2.swift */,
+			);
+			name = mcculloch;
+			sourceTree = "<group>";
+		};
+		D0CD6D4D1A584EEE002B37EC /* john */ = {
+			isa = PBXGroup;
+			children = (
+				D0CD6D4B1A584EDC002B37EC /* John7_3.swift */,
+				D0145D4D1A587DC200A6EA21 /* john.playground */,
+			);
+			name = john;
+			sourceTree = "<group>";
+		};
+		D0CD6D501A585020002B37EC /* support */ = {
+			isa = PBXGroup;
+			children = (
+				D0CD6D4E1A58501B002B37EC /* TestData.swift */,
+			);
+			name = support;
+			sourceTree = "<group>";
+		};
+		D0FB56E91A4BA4BB0069AAF4 /* numerical_methods */ = {
+			isa = PBXGroup;
+			children = (
+				D0FB56EA1A4BA4F00069AAF4 /* LinearAlgebra.swift */,
+				D0028BAA1A525598000B94B2 /* numerical_functions.swift */,
+				D0FB56ED1A4BC9C20069AAF4 /* LinearAlgebra.playground */,
+				D05927BB1A55DEA800566481 /* LapackEngine.swift */,
+			);
+			name = numerical_methods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -247,7 +592,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3DC3AE3F1A28007300F44D10 /* Table2_2.swift in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,14 +602,71 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0D344C31A44D38B00816278 /* LMFactorInteractions.swift in Sources */,
+				D0328A3A1A43913100CC22A0 /* IPlan.swift in Sources */,
+				D0328A8E1A44C55200CC22A0 /* SimpleLattice.swift in Sources */,
+				D0328A341A43904800CC22A0 /* IExperimentalData.swift in Sources */,
+				D0328A921A44C57400CC22A0 /* TripleLattice.swift in Sources */,
 				3DC3AE111A27F1E000F44D10 /* ViewController.swift in Sources */,
+				D0028BA81A51D162000B94B2 /* LatticeSquare.swift in Sources */,
+				D0328A571A43A56E00CC22A0 /* LineTesterBlock.swift in Sources */,
+				D0328A501A43A43100CC22A0 /* AugmentedRCBD.swift in Sources */,
+				D0328A551A43A55C00CC22A0 /* DiallelCrossBlock.swift in Sources */,
+				D0028B9E1A5105A5000B94B2 /* FischerLSD.swift in Sources */,
+				D0328A531A43A53A00CC22A0 /* BasicCrossingBlock.swift in Sources */,
+				D0028B9B1A510489000B94B2 /* TukeyHSD.swift in Sources */,
+				D0328A431A43A0DF00CC22A0 /* LatinSquare.swift in Sources */,
+				D0028BAB1A525598000B94B2 /* numerical_functions.swift in Sources */,
+				D0328A721A44C0C600CC22A0 /* GLM.swift in Sources */,
+				D0028BA01A51062E000B94B2 /* DuncansMRT.swift in Sources */,
+				D0328A8A1A44C28E00CC22A0 /* LMModel0.swift in Sources */,
+				D05927C51A561ED600566481 /* AOVrowcolumnLM.swift in Sources */,
+				D0328A8C1A44C54200CC22A0 /* RectangularLattice.swift in Sources */,
+				D0328A5D1A43A63100CC22A0 /* DescriptiveInfo.swift in Sources */,
+				D0328A591A43A58300CC22A0 /* PolycrossBlock.swift in Sources */,
+				D0028BA61A5107F1000B94B2 /* Dunnetts.swift in Sources */,
+				D0328A4E1A43A42000CC22A0 /* AugmentedLattice.swift in Sources */,
+				D0328A271A438DE800CC22A0 /* DesignPars.swift in Sources */,
+				D0328A4A1A43A3F700CC22A0 /* AugmentedCRD.swift in Sources */,
+				D0328A621A43A76E00CC22A0 /* AlphaLattice.swift in Sources */,
+				D0328A451A43A0F300CC22A0 /* RowMajSquare.swift in Sources */,
 				3DC3AE351A27FA5500F44D10 /* Discontinuous.swift in Sources */,
+				D0328A6B1A43A7D700CC22A0 /* CochrandAndCoxPlans.swift in Sources */,
+				D05927C31A561BF300566481 /* AOVsequentialRCB.swift in Sources */,
+				D0328A2C1A438F0400CC22A0 /* IAnalysis.swift in Sources */,
+				D0328A411A43A0CC00CC22A0 /* DiagSquare.swift in Sources */,
+				D0328A361A4390FB00CC22A0 /* IExperimentalDesign.swift in Sources */,
+				D0328A5B1A43A59B00CC22A0 /* TestCrossDesign.swift in Sources */,
 				3DC3AE141A27F1E000F44D10 /* Biometry.xcdatamodeld in Sources */,
+				D05927BE1A56074F00566481 /* AOVLatticeLM.swift in Sources */,
+				D0328A3E1A43A0AB00CC22A0 /* ColMajSquare.swift in Sources */,
+				D0328A901A44C56300CC22A0 /* SquareLattice.swift in Sources */,
 				3DC3AE391A27FB2600F44D10 /* Attribute.swift in Sources */,
+				D05927BC1A55DEA800566481 /* LapackEngine.swift in Sources */,
+				D0328A381A43911D00CC22A0 /* IMap.swift in Sources */,
+				D0328A301A438FFE00CC22A0 /* IBlock.swift in Sources */,
+				D0028BA41A5107AD000B94B2 /* WallerDuncan.swift in Sources */,
+				D0328A841A44C23800CC22A0 /* AOVsequentialLM.swift in Sources */,
+				D05927C11A561BD800566481 /* AOVsequentialCRD.swift in Sources */,
+				D0FB56F11A50D5620069AAF4 /* StatsFunctions.swift in Sources */,
+				D0FB56EF1A4F15A00069AAF4 /* BalancedLattice.swift in Sources */,
+				D0328A881A44C26800CC22A0 /* LMLapack.swift in Sources */,
+				D0328A3C1A43916200CC22A0 /* IStatEngine.swift in Sources */,
+				D0328A861A44C24D00CC22A0 /* LinearModel.swift in Sources */,
+				D0FB56EB1A4BA4F00069AAF4 /* LinearAlgebra.swift in Sources */,
+				D0328A7F1A44C1F800CC22A0 /* IntrablockAnalysisLM.swift in Sources */,
+				D0328A791A44C1BC00CC22A0 /* CombinedAnalysisLM.swift in Sources */,
+				D0328A811A44C20A00CC22A0 /* IntrablockAnalysisRC.swift in Sources */,
+				D0328A7B1A44C1D000CC22A0 /* CombinedAnalysisRC.swift in Sources */,
+				D0028BA21A51074F000B94B2 /* StudentNewmanKeuls.swift in Sources */,
 				3DC3AE331A27F9B600F44D10 /* Continuous.swift in Sources */,
 				3DC3AE371A27FAC100F44D10 /* Ranked.swift in Sources */,
 				3DC3AE311A27F52500F44D10 /* Measurement.swift in Sources */,
+				D0328A321A43903200CC22A0 /* IExperiment.swift in Sources */,
+				D0328A4C1A43A40D00CC22A0 /* AugmentedDesign.swift in Sources */,
 				3DC3AE0F1A27F1E000F44D10 /* AppDelegate.swift in Sources */,
+				D0328A2E1A438FE100CC22A0 /* IArrangement.swift in Sources */,
+				D0328A701A43A80600CC22A0 /* iLattice.swift in Sources */,
 				3DC3AE2F1A27F3D000F44D10 /* Variable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -274,10 +675,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3DC3AE3D1A27FDFF00F44D10 /* Box2_1.swift in Sources */,
-				3DC3AE431A28035200F44D10 /* Exercise2_4.swift in Sources */,
-				3DC3AE411A28022F00F44D10 /* Table2_3.swift in Sources */,
-				3DC3AE251A27F1E100F44D10 /* BiometryTests.swift in Sources */,
+				D05927D31A5707A000566481 /* McCulloch8_2.swift in Sources */,
+				D05927D11A57076600566481 /* McCulloch7_6.swift in Sources */,
+				D05927C91A5701FC00566481 /* McCulloch4_7.swift in Sources */,
+				D059EFE31A587D5A009EC9EA /* TestData.swift in Sources */,
+				D05927CB1A5705AE00566481 /* McCulloch2_2.swift in Sources */,
+				D059EFE21A587D4E009EC9EA /* John7_3.swift in Sources */,
+				D05927CD1A57065700566481 /* McCulloch2_3.swift in Sources */,
+				D05927CF1A57071300566481 /* McCulloch5_1.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

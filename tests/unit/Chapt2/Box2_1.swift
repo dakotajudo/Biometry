@@ -14,7 +14,7 @@
   4.1 4.4 4.5 3.6 3.8
   4.4 4.1 3.6 4.2 3.9
 
-  Swift refers to these in the text as "readings"
+  Swift refers to these in the text : "readings"
 */
 
 import Cocoa

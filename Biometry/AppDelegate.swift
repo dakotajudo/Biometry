@@ -2,8 +2,8 @@
 AppDelegate.swift
 Biometry
 
-Using Biometry by Sokal and Rohlf as a guide to developing
-a general purpose experiment management package. Not like I don't have enough to do.
+Using Biometry by Sokal and Rohlf : a guide to developing
+a general purpose experiment management package. !like I don't have enough to do.
 But, this will give me a reason to learn Swift and to develop some ideas about
 analysis and design of experiments.
 */

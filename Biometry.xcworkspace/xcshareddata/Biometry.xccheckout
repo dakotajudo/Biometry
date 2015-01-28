@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>14D2D008-C10E-4C6D-AFA0-7F0618B05465</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Biometry</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>628231C6D540BC3A540D64A0B520F338F5C5793B</key>
+		<string>https://github.com/dakotajudo/statistics.git</string>
+		<key>CF14588F2F1D2671A6370322EFA43CCA76C4B1A4</key>
+		<string>https://github.com/dakotajudo/Biometry.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Biometry.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>628231C6D540BC3A540D64A0B520F338F5C5793B</key>
+		<string>../../statistics</string>
+		<key>CF14588F2F1D2671A6370322EFA43CCA76C4B1A4</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/dakotajudo/Biometry.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>CF14588F2F1D2671A6370322EFA43CCA76C4B1A4</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>CF14588F2F1D2671A6370322EFA43CCA76C4B1A4</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Biometry</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>628231C6D540BC3A540D64A0B520F338F5C5793B</string>
+			<key>IDESourceControlWCCName</key>
+			<string>statistics</string>
+		</dict>
+	</array>
+</dict>
+</plist>
