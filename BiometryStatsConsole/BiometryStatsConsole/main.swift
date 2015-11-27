@@ -9,11 +9,19 @@
 import Foundation
 import BiometryStatsEngine
 
-println("Hello, World!")
+Milliken2_1.levenes_test()
+//Milliken2_1.table_2_1()
+//Milliken2_1.aov()
 
-var block : IBlock = IBlock(count: 5)
 
-var dat = John7_3()
-//print(dat.valuesMatrix)
-var model = CombinedAnalysisLM(data: dat,column: 0)
-model.Ac
+Milliken6_1.nestedModels()
+Milliken6_1.testMarginalMeans()
+
+Milliken6_3.coefficients()
+
+Milliken9_1.testLinearModels()
+Milliken9_1.testAOV()
+Milliken9_1.testMarginalMeans()
+
+Schabenberger_4_2.testFullModel()
+
